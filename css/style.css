@@ -1,0 +1,121 @@
+/* Importing google fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700&display=swap");
+
+/* Importing all components*/
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/header.css");
+@import url("components/cards.css");
+@import url("components/footer.css");
+@import url("components/list.css");
+@import url("components/signup.css");
+
+/* Elements*/
+
+body{
+	background: white;
+	color:black;
+	font-family: 'Nunito Sans', sans-serif;
+	margin: 0;
+	}
+
+h1,h2,h3,h4,p {
+	font-family: 'Nunito Sans', sans-serif;
+	}
+
+h1 {
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 65px;
+color: #000000;
+}
+
+h2 {
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 49px;
+color: #000000;
+}
+
+h3 {
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 33px;
+color: #000000;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	padding-inline-start: 0px;
+}
+
+footer {
+	background-color: rgba(0, 0, 0, 0.17);
+	padding: 10px 10px 10px 30px;
+}
+
+.grey{
+	color: rgba(0, 0, 0, 0.17);
+	}
+.orange{
+	color: #F2A22C;
+	}
+.white{
+	color: white;
+	}
+
+
+.logo{
+	width: 87px;
+    height: 93px;
+    padding-right: 35px;
+}
+
+
+.img-rounded{
+	border-radius: 100%;
+	width: 190px;
+	}
+.img-shadowed{
+	box-shadow: 0px 5px 10px rgb(0 0 0 / 10%)
+	}
+
+.img-brand{
+	height: 45px;
+	padding: 10px;
+	}
+
+.brands-grid{
+	display: flex;
+	flex-wrap: wrap;
+	}
+.brands-grid img{
+	justify-content: space-between;
+	}
+
+#column { 
+	overflow:auto; 
+	width: 100%; 
+	} 
+#column50pleft, #column50pright{ 
+	width: 49%; 
+	} 
+
+#column50pleft { 
+	float:left; 
+	} 
+
+#column50pright { 
+	float:right; 
+	} 
+
+

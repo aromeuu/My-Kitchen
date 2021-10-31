@@ -1,0 +1,13 @@
+.list-inline{
+	list-style:none;
+	padding-left:0px;
+	}
+.list-inline li{
+	text-decoration: none;
+	display: inline;
+	padding:20px;
+	}
+.list-inline i{
+	font-size: 60px;
+	color:#FF865E;
+	}
