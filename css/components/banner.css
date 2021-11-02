@@ -24,6 +24,7 @@
 	background-color:#FF1616;
 	display: flex; 
 	justify-content: space-between;
+	padding: 40px;
 	}
 
 .bloc-text {
@@ -36,6 +37,7 @@
 
 .banner-separated img{
 	flex-grow: 1;
+	margin-left: 80px;
 	}
 
 
