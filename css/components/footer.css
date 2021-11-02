@@ -3,8 +3,8 @@
 	margin: 0 auto;
 	display: flex;
 	justify-content: center;
-	align-items: center;
 	flex-shrink: 0;
+	flex-wrap: wrap;
 	align-items: flex-start;
 }  
 
@@ -14,14 +14,22 @@
 
 .bloc {
     flex-basis: 20%;
-    margin: 0 20px;
-    flex-grow: 1;
+    margin: 0;
+    padding: 10px;
 }
+
 
 .footer a{
 	font-size: 19px;
+	padding-right: 7px;
 }
 
 .logo {
 	position: left;
+}
+
+.footer-company,
+.footer-media,
+.footer-application {
+	min-width: 250px;
 }

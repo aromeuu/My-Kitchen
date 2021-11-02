@@ -90,8 +90,8 @@ footer {
 	}
 
 .img-brand{
-	height: 45px;
-	padding: 10px;
+	height: 38px;
+	padding: 5px;
 	}
 
 .brands-grid{
@@ -101,6 +101,11 @@ footer {
 .brands-grid img{
 	justify-content: space-between;
 	}
+
+.brands-grid li{
+	padding: 0;
+	}
+
 
 #column { 
 	overflow:auto; 
@@ -117,9 +122,5 @@ footer {
 #column50pright { 
 	float:right; 
 	} 
-
-.container{
-	padding: 50px;
-}
 
 

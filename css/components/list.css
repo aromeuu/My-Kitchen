@@ -11,3 +11,20 @@
 	font-size: 60px;
 	color:#FF865E;
 	}
+
+
+#list-inline-footer{
+	list-style:none;
+	padding-left:0px;
+	}
+
+#list-inline-footer li{
+	text-decoration:none;
+	display: inline;
+	padding:0
+	}
+
+#list-inline-footer i{
+	font-size: 60px;
+	color:#FF865E;
+	}
