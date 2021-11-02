@@ -1,0 +1,27 @@
+.footer{
+	background-size: auto; 
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-shrink: 0;
+	align-items: flex-start;
+}  
+
+.footer h3{
+	margin-bottom: 10px;
+}  
+
+.bloc {
+    flex-basis: 20%;
+    margin: 0 20px;
+    flex-grow: 1;
+}
+
+.footer a{
+	font-size: 19px;
+}
+
+.logo {
+	position: left;
+}

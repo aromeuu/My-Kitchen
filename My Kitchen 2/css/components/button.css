@@ -1,0 +1,76 @@
+.btn-red{
+	background: #FF1616;
+	padding: 20px 20px;
+	border-radius: 100px;
+	color: white;
+	font-size: 24px;
+	font-weight : bold;
+	display: flex;
+	font-family: 'Nunito Sans', sans-serif;
+	justify-content: center;
+	align-items: center;
+	width: 130px;
+	height: 25px;
+	box-shadow: 0px 5px 10px rgb(0 0 0 / 10%);
+	margin : 10px;
+}
+
+.btn-orange{
+	background: #F2A22C;
+	padding: 10px 10px;
+	border-radius: 70px;
+	color: white;
+	font-size: 17px;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 125px;
+	height: 20px;
+	box-shadow: 0px 5px 10px rgb(0 0 0 / 10%);
+	margin : 10px;
+}
+
+
+.input-grey,
+.input-grey-search{
+	background: #F4F2F2;
+	padding: 20px 20px;
+	border-radius: 25px;
+	border-color: rgb(0 0 0 / 10%);
+	font-size: 20px;
+	color: #848383;
+	font-family: 'Nunito Sans', sans-serif;
+	height: 35px;
+	box-shadow: 0px 5px 10px rgb(0 0 0 / 10%);
+	margin: 10px;
+	text-align: left;
+	font-weight: lighter;
+	display: flex;
+	align-items: center;
+}
+
+.input-grey{
+	max-width: 545px;	
+}
+
+.input-grey-search{
+	background-image:url("../../images/Search.png");
+	background-position: 15px 22px;
+    background-repeat: no-repeat;
+	padding-left: 60px;
+	width: 600px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	font-style: oblique}
+
+
+#team-cam a {
+margin-top: 40px;
+}
