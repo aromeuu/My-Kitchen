@@ -68,4 +68,17 @@ a {
 }
 
 a:hover {
-	font-style: oblique}
+	font-style: oblique;
+}
+
+
+.btn-like{
+	display: flex;
+}
+
+.btn-like i{
+	align-self: center;
+
+}
+
+

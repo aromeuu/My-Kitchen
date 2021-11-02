@@ -73,6 +73,13 @@ footer {
 	color: white;
 	}
 
+.background-orange {
+	background-color:#F2A22C; 
+	}
+
+
+
+/* IMAGES */
 
 .logo{
 	width: 87px;
@@ -94,6 +101,8 @@ footer {
 	padding: 5px;
 	}
 
+/* BRANDS HOME PAGE */
+
 .brands-grid{
 	display: flex;
 	flex-wrap: wrap;
@@ -106,6 +115,39 @@ footer {
 	padding: 0;
 	}
 
+/* RECIPE PAGE Zucchini */
+.recipe-info{
+	display: flex;
+	flex-grow: 1;
+	margin: 6px
+	}
+
+.recipe-info img{
+	width: 80px;
+	height: 90px;
+	padding-right: 15px;
+	align-self: center;
+	}
+
+.recipe-info-grid{
+	display: flex;
+	flex-wrap: wrap;
+	}
+
+.recipe-title {
+	display: flex;
+	}
+
+.recipe-title i{
+	color: #FF1616;
+	}
+
+.title {
+	text-align: left;
+	}
+
+
+/* ID */
 
 #column { 
 	overflow:auto; 
