@@ -136,15 +136,26 @@ footer {
 
 .recipe-title {
 	display: flex;
+	margin-bottom: 20px;
 	}
 
 .recipe-title i{
 	color: #FF1616;
 	}
 
-.title {
+.recipe-title img{
+	height: 170px;
+	}
+
+.title-btn {
 	text-align: left;
 	}
+
+.btn-like body,i{
+	color: #FF1616;
+	}
+
+.fasfa-heart
 
 
 /* ID */

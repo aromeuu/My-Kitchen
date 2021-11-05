@@ -16,6 +16,8 @@
 #list-inline-footer{
 	list-style:none;
 	padding-left:0px;
+	display: flex;
+	flex-wrap: wrap;
 	}
 
 #list-inline-footer li{
