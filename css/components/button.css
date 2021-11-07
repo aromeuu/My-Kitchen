@@ -85,13 +85,12 @@ a:hover {
 margin-top: 40px;
 }
 
-.button-inline {
+.buttons-inline {
 display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.button-inline ul {
-	padding-inline-start: 0px;
+.buttons-inline ul {
     list-style: none;
 }
