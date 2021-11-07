@@ -84,3 +84,14 @@ a:hover {
 #team-cam a {
 margin-top: 40px;
 }
+
+.button-inline {
+display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.button-inline ul {
+	padding-inline-start: 0px;
+    list-style: none;
+}
