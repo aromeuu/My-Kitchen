@@ -155,7 +155,11 @@ footer {
 	color: #FF1616;
 	}
 
-.fasfa-heart
+.btn-like svg{
+	color: #FF1616;
+	padding-top: 30px;
+	font-size: 25px;
+	}
 
 
 /* ID */
