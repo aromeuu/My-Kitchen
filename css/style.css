@@ -155,7 +155,7 @@ footer {
 	color: #FF1616;
 	}
 
-.btn-like svg{
+.btn-like svg,i{
 	color: #FF1616;
 	padding-top: 30px;
 	font-size: 25px;
