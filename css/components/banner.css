@@ -45,14 +45,11 @@
 	flex-wrap: nowrap;
 }
 
-
 .img-mission {
 	flex-grow: 1;
 	background-image: linear-gradient(-220deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.1) 70%), url("../../images/mission.png");
 	background-position: center;
 	background-size: cover;
-	padding: 10px;
-	padding-right: 15px;
 	margin: 0px;
 	width: 50%;
 }
@@ -62,16 +59,22 @@
 	background-image: linear-gradient(-220deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.1) 70%), url("../../images/vision.png");
 	background-position: center;
 	background-size: cover;
-	padding: 10px;
-	padding-right: 15px;
 	margin: 0px;
 	width: 50%;
 }
 
+.img-blog {
+	flex-grow: 1;
+	background-image: linear-gradient(-220deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.1) 70%), url("../../images/background1.png");
+	background-position: center;
+	background-size: cover;
+	margin: 0px;
+	width: 50%;
+
+
 .text-50{
 	background-color: #FF1616;
-	padding: 20px;
-	padding-right: 25px;
+	padding: 30px 30px 30px 40px;
 	margin: 0px;
 	width: 50%;
 }
