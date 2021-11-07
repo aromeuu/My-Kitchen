@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Form</title>
+		<meta charset="utf-8">
+		<script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+
+	<body>
+
+<div class="header">
+			<img class="logo" src="images/logo.png" alt="Logo">
+			<h2>Shopping</h2>
+			<h2>Cooking</h2>
+			<h2>Blog</h2>
+			<h3>Christelle</h3>
+			<img class="avatar" src="images/avatar.jpg" alt="Christelle">
+		</div>
+
+<form action="/action_page.php" class="container">
+  <h1> What are we doing today ? </h1>
+  <label for="fname">1) How many are you ?</label>
+  <input type="number" id="quantity" name="quantity" min="1" max="10>
+
+  <label for="diet">2) Do you have a special diet ? </label>
+   <select id="diet" name="diet">
+    <option value="omnivore">Omnivore</option>
+    <option value="vegetarian">Vegetarian</option>
+    <option value="vegan">Vegan</option>
+  </select>
+
+  <label for="equipment">3) What are your equipments ? </label>
+  <ul>
+  <li>
+   <input type="checkbox" checked="checked">
+  <span class="checkmark"></span>
+  <img src="images/blender.png" width="50">
+  <label class="container">Blender
+ 
+</label>
+</li>
+
+<li>
+  <input type="checkbox">
+  <span class="checkmark"></span>
+<img src="images/rice-cooker.png" width="50">
+<label class="container">Rice cooker
+</label>
+</li>
+
+<li>
+ <input type="checkbox">
+  <span class="checkmark"></span>
+<img src="images/Microwave.png" width="50">
+<label class="container">Microwave
+</label>
+</li>
+
+<li>
+ <input type="checkbox">
+  <span class="checkmark"></span>
+<img src="images/oven.png" width="50">
+<label class="container">Oven
+</label>
+</li>
+
+<li>
+  <input type="checkbox">
+  <span class="checkmark"></span>
+<img src="images/stove.png" width="50">
+<label class="container">Stove
+  </ul>
+</label>
+</li>
+</ul>
+
+<label for="fname">4) Which brand would you like to join ?</label>
+<div class="custom-select" style="width:200px;">
+  <select>
+    <option value="0">Select brand:</option>
+    <option value="1">Carrefour</option>
+    <option value="2">Intermarché</option>
+    <option value="3">Casino</option>
+    <option value="4">Match</option>
+  </select>
+</div>
+
+<a class="btn-red" href="recipeschoice.html" >Submit</a>
+
+</form>
+
+
+	<footer>
+		<h2>Let’s put the kitchen back in its place</h2>
+		<div class="footer">
+			<img class="logo" src="images/logo.png" alt="Logo">
+			<div class="bloc footer-company">
+				<h3>Our company</h3>
+				<ul id="list-inline-footer">
+					<li><a href="#">About us</a></li>
+					<li><a href="#">The team</a></li>
+				</ul>
+			</div>
+			<div class="bloc footer-media">
+				<h3>Our social media</h3>
+				<ul id="list-inline-footer">
+					<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+					<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+					<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+				</ul>
+			</div>
+			<div class="bloc footer-application">
+				<h3>Our application</h3>
+				<ul id="list-inline-footer">
+					<img src="images/app1.png" alt="AppStore">
+					<img src="images/app2.png" alt="GooglePlay">
+				</ul>
+			</div>
+		</div>
+	</footer>
+
+
+	</body>
