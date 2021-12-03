@@ -1,11 +1,14 @@
+/* CSS code for the Header */
+
 .header{
 	padding: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+   	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 
+/* CSS code for the titles in the Header */
 
 .header-h2{
     font-style: normal;
@@ -24,7 +27,6 @@
     }
 
 
-
 .header-h2{
 	color: #F2A22C;
     flex-grow: 1;
@@ -34,6 +36,10 @@
 .header-h3{
 	padding-right: 15px;
 }
+
+
+
+/* CSS code for the responsive design */
 
 @media (max-width: 720px){
     .header-h2{
