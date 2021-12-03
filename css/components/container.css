@@ -1,3 +1,5 @@
+/* Main container to center and align + Margins */
+
 .container {
     width: 1276px;
     margin: 20px auto;
@@ -25,7 +27,7 @@
 	}
 }
 
-/* ABI's CSS */
+/* Other containers */
 
 #container-team {
 	width: 1200px;
