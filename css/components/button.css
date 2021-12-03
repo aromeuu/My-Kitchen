@@ -1,3 +1,6 @@
+/* CSS code for the big red button */
+
+
 .btn-red{
 	background: #FF1616;
 	padding: 20px 20px;
@@ -15,6 +18,9 @@
 	margin : 10px;
 }
 
+/* CSS code for the orange button */
+
+
 .btn-orange{
 	background: #F2A22C;
 	padding: 10px 10px;
@@ -30,6 +36,9 @@
 	box-shadow: 0px 5px 10px rgb(0 0 0 / 10%);
 	margin : 10px;
 }
+
+
+/* CSS code for the grey input */
 
 
 .input-grey,
@@ -72,6 +81,22 @@ a:hover {
 }
 
 
+/* CSS code for the red button with a heart : Recipe Details Page */
+
+.title-btn {
+	text-align: left;
+	}
+
+.btn-like body,i{
+	color: #FF1616;
+	}
+
+.btn-like svg,i{
+	color: #FF1616;
+	padding-top: 30px;
+	font-size: 25px;
+	}
+
 .btn-like{
 	display: flex;
 }
@@ -80,9 +105,15 @@ a:hover {
 	align-self: center;
 }
 
+
+/* CSS code for the Team Page */
+
 #team-cam a {
 	margin-top: 40px;
 }
+
+
+/* CSS code to inline the orannge buttons on the Search Page */
 
 .buttons-inline {
 	display: flex;

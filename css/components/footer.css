@@ -24,7 +24,7 @@
 	padding-right: 7px;
 }
 
-.footer-media a{
+#footer-media a{
 	font-size: -webkit-xxx-large
 }
 
@@ -32,17 +32,17 @@
 	position: left;
 }
 
-.footer-company,
-.footer-media,
-.footer-application {
+#footer-company,
+#footer-media,
+#footer-application {
 	min-width: 250px;
 	flex-grow: 1;
 }
 
 
 @media (max-width: 935px){
-    .footer-company,
-    .footer-media{
+    #footer-company,
+    #footer-media{
     	max-width: 300px;
     }
 }
