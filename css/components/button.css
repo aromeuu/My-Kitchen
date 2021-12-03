@@ -125,3 +125,22 @@ a:hover {
 .buttons-inline ul {
     list-style: none;
 }
+
+/* CSS code for the Results Research Page */
+
+.btn-risotto {
+	background: #F2A22C;
+	padding: 10px 10px;
+	border-radius: 70px;
+	color: white;
+	font-size: 17px;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 125px;
+	height: 20px;
+	box-shadow: 0px 5px 10px rgb(0 0 0 / 10%);
+	margin : 10px;
+	border: 4px double red;
+}
