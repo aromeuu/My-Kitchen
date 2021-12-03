@@ -57,7 +57,7 @@
 .input-grey-search{
 	background-image:url("../../images/Search.png");
 	background-position: 15px 22px;
-    background-repeat: no-repeat;
+   	background-repeat: no-repeat;
 	padding-left: 60px;
 	width: 600px;
 }
@@ -78,11 +78,10 @@ a:hover {
 
 .btn-like i{
 	align-self: center;
-
 }
 
 #team-cam a {
-margin-top: 40px;
+	margin-top: 40px;
 }
 
 .buttons-inline {
